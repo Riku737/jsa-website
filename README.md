@@ -17,15 +17,15 @@ This is a list compiled for the current things that need fixing / doing. They're
 - [ ] Make mentioned links point to correct pages
 - [ ] Remove occurences of made-up template things (e.g. sushi workshop, building location)
 - [ ] Fix contact information accross website (e.g., email, instagram)
-- [ ] Fix colours to match JSA Branding (see Google Drive > Communication > Branding)
+- [ ] Fix colours to match uOJSA Branding (see Google Drive > Communication > Branding)
 - [ ] Review wording is inline with uOJSA brand and vocabulary
+  - [ ] JSA -> uOJSA
   - [ ] Add more items... (there are some not so great sentences in some places)
 
 **Medium**
 - [ ] Replace logo with actual logo (See Google Drive above)
   - [ ] Header / Navbar
   - [ ] Footer
-  - [ ] JSA -> uOJSA
 - [ ] Fix Mobile Usability
   - [ ] Top right corner hamburger currently not opening navbar
   - [ ] Check if any other issues
