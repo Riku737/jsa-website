@@ -51,11 +51,11 @@ MOST IMPORTANT: *Commit frequently!!!!* This allows us to revert versions withou
 
 First, ensure you have node.js installed (see [installation](https://nodejs.org/en)). Node is the official JavaScript package manager and is needed to install Vite. Vite is the local development web server we will use, since it is quick and easy to setup.
 
-First, clone the repository:
+First, in a local directory (not in a OneDrive-backed up folder T_T) clone the repository:
 
 `git clone https://github.com/uojsa/website`
 
-and cd into the new folder:
+and cd into the new repository folder:
 
 `cd website`
 
@@ -63,7 +63,7 @@ Once the contents of the repository have been cloned to your local directory, ru
 
 `npm install`
 
-This ensures any new packages added to `package.json` are installed to your project. Missing dependencies are often a cause to errors during build. Additionally, if you have not already, this command will install Vite.
+This ensures any new packages added to `package.json` are installed to your project. Missing dependencies are often a cause for errors during build. Additionally, if you have not already, this command will install Vite.
 
 Finally, run the following:
 
@@ -71,7 +71,7 @@ Finally, run the following:
 
 This will execute the vite package, setting up a local development server hosted usually on port 5173 at http://localhost:5173. If the port is already occupied, it should default to the next available port. Keep this is mind if it starts up on 5174 or higher. You might already have an old server running on 5173.
 
-Note: in order for the command to work, there must be a file called `index.html` in that directory. Ensure you are inside the correct folder.
+Note: in order for the command to work, there must be a file called `index.html` in that directory. Ensure you are inside the correct folder where such file exists.
 
 
 ### Development references
