@@ -37,7 +37,7 @@ This is a list compiled for the current things that need fixing / doing. They're
 Feel free to add more things to the site (e.g., improve the calendar), or replace some existing things! 
 
 Things to check if you're not sure:
--  The tailwind CSS documentation will see what UI elements can be added
+-  The tailwind CSS documentation to see what UI elements can be added
 -  Check out `message.txt` to see if any requirements are missing / too complex to implement (provide alternative).
 -  Common sense :)
    -  Does it look ugly?
@@ -76,5 +76,5 @@ Note: in order for the command to work, there must be a file called `index.html`
 
 ### Development references
 
--  [Tailwind CSS UI Blocks List](https://tailwindcss.com/plus/ui-blocks)
+-  [Tailwind CSS Docs](https://tailwindcss.com/docs/styling-with-utility-classes)
 - [Vite](https://vite.dev/)
