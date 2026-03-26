@@ -1,0 +1,220 @@
+JSA Website Goal
+
+The website should act as the main online hub for the Japanese Student Association. It should introduce the organization, promote upcoming activities, archive past events, help students learn about the Japanese Conversation Group, and make it easy for people to contact or join the team. It also needs to be simple for executives to update without having to edit code every time.
+
+Core Requirements
+
+The website should be mobile-friendly and adapt well to different screen sizes, including phones, tablets, and laptops. It should also have an easy-to-update backend so that future execs can quickly change text, dates, events, team members, and semester schedules. The site should feel organized and easy to navigate, with a header linking to the main sections and a footer containing JSA branding and contact information.
+
+Main Site Structure
+1. Homepage
+
+The homepage should give a strong overview of JSA and quickly tell visitors who you are and what you do. This is the first page most people will see, so it should answer basic questions immediately.
+
+It should include:
+
+A short introduction to JSA
+A quick explanation of what kinds of events you run
+Highlights of major upcoming events
+A preview of the event calendar
+A short section linking to the JCG page
+A short section encouraging people to join the team or contact you
+
+This page is mainly for discovery. Someone visiting for the first time should understand the club within a few seconds.
+
+2. Events Calendar Page
+
+This page should show all upcoming JSA events in one place. It should be easy to scan and easy for admins to update.
+
+It should include:
+
+A calendar view of events
+Possibly also a list view for easier reading on mobile
+Event title, date, time, location, and short description
+Optional registration link if needed
+Optional tags like “Cultural Event,” “JCG,” “Social,” or “Workshop”
+
+This page is important because it makes the website useful on a regular basis, not just informational.
+
+3. Cultural Events Page
+
+This page should showcase past cultural events JSA has hosted. It works both as an archive and as a way to show the club’s impact and activity.
+
+It should include:
+
+A list or gallery of past cultural events
+Event names, dates, short descriptions
+Photos if available
+Optional highlights like attendance, collaborations, or sponsors
+
+This page helps demonstrate credibility and gives new students a better idea of what JSA actually does.
+
+4. JCG Page
+
+This page should explain the Japanese Conversation Group clearly and make it easy to update each semester.
+
+It should include:
+
+What JCG is
+Who it is for, such as beginners, intermediate learners, or anyone interested
+What usually happens during meetings
+The semester schedule
+Meeting frequency, times, and location
+Any changes for the current term
+
+Because the schedule changes each semester, this page should be built so that the schedule can be updated separately without rewriting the whole page. Ideally, there should be a “current semester schedule” section managed from the backend.
+
+5. Meet Our Team / Join Team Page
+
+This page can combine both introducing the exec team and helping interested students get involved.
+
+It should include:
+
+Current team members and their roles
+Short bios or simple descriptions if desired
+Contact details or a main club email
+Information on how to join the team
+A join form or interest form submission link
+
+This page should make it easy for someone to go from “I’m interested” to actually reaching out.
+
+6. Contact Section
+
+This could either be part of the team page or a separate page, depending on how much information you want.
+
+It should include:
+
+Club email
+Instagram
+Optional Discord link
+A general contact form
+Information on where students should reach out for collaborations, questions, or joining
+Navigation
+
+The header should contain links to the main sections of the site. A clean structure would be:
+
+Home
+Events Calendar
+Cultural Events
+JCG
+Meet the Team / Join
+Contact
+
+This keeps everything easy to find.
+
+Footer
+
+The footer should appear on every page and contain the key identity and contact pieces.
+
+It should include:
+
+JSA full organization name
+Logo
+Contact email
+Instagram link
+Possibly copyright or “University of Ottawa Japanese Student Association”
+Backend / Update System Needs
+
+Since you want the site to be easily updatable, the most important planning decision is how content will be managed. The best setup is one where execs can log in and update content without touching the codebase.
+
+The backend should make it easy to update:
+
+Homepage featured events
+Event calendar entries
+Past cultural event entries
+JCG semester schedule
+Team member list
+Contact/join links or forms
+
+A good structure would be to treat these as separate content areas in an admin panel or CMS. That way, when the semester changes, you only update the JCG schedule section. When a new event is planned, you just add it to the events area. When execs change, you update the team entries.
+
+Suggested Content Model
+
+To make the site maintainable, each type of content should be stored separately.
+
+Event entry
+
+Each event should have:
+
+Title
+Category
+Date
+Time
+Location
+Description
+Registration link
+Image if needed
+Status such as upcoming or past
+JCG semester entry
+
+Each semester schedule should have:
+
+Semester name
+Short description
+Weekly or session-based schedule
+Time
+Location
+Notes for that term
+Team member entry
+
+Each team member should have:
+
+Name
+Role
+Contact or club contact reference
+Optional bio
+Photo if desired
+Join form submissions
+
+If you include a join form, it should collect:
+
+Name
+Email
+Program/year
+Interest in which role or area
+Optional message
+Responsive Design Requirement
+
+The website should adapt to different screen sizes. In planning terms, that means:
+
+Navigation should work on mobile
+Calendar should remain readable on smaller screens
+Text sections should stack cleanly
+Forms should be easy to fill out on a phone
+Images and event cards should resize properly
+
+This is an important core requirement, not an extra feature.
+
+Best Practical Approach
+
+For a student organization, the easiest and most sustainable approach is usually:
+
+A simple frontend website with a CMS or admin-managed backend.
+
+That way:
+
+Non-technical execs can update content
+You do not need to hardcode every semester change
+New teams can maintain it more easily in future years
+Recommended Functional Priorities
+
+If you want to build it in phases, the order should be:
+
+First, build the homepage, navigation, footer, and events calendar.
+Then add the cultural events archive and JCG page.
+Then add the team/join/contact section and form handling.
+Finally, connect everything to an easy admin system for updates.
+
+Final Breakdown Summary
+
+Your JSA website needs:
+
+A homepage that explains the organization and highlights events.
+A calendar page with all current events.
+A cultural events archive showing past activities.
+A JCG page with an explanation and semester-specific schedule.
+A team/join section with contact details and a join form.
+A header linking all main pages.
+A footer with logo, org name, contacts, and Instagram.
+Responsive design for all screen sizes.
+A backend or CMS that lets future execs update everything easily.
