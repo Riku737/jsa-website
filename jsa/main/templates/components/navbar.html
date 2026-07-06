@@ -6,12 +6,12 @@
                 <span class="font-bold text-xl tracking-tight">JSA <span class="text-pink-600">uOttawa</span></span>
             </div>
             
-            <div class="hidden md:flex space-x-8 font-medium text-sm">
-                <a href="home" class="hover:text-pink-600 transition">Home</a>
-                <a href="calendar" class="hover:text-pink-600 transition">Events Calendar</a>
-                <a href="archive" class="hover:text-pink-600 transition">Cultural Archive</a>
-                <a href="jcg" class="hover:text-pink-600 transition">JCG</a>
-                <a href="team" class="text-pink-600 border-b-2 border-pink-600 pb-1">Meet the Team</a>
+            <div class="hidden md:flex md:items-center space-x-8 font-medium text-sm">
+                {% include "components/navlink.html" with href="/home" label="Home" page_name="home" current_page=current_page %}
+                {% include "components/navlink.html" with href="/calendar" label="Events Calendar" page_name="calendar" current_page=current_page %}
+                {% include "components/navlink.html" with href="/archive" label="Cultural Archive" page_name="archive" current_page=current_page %}
+                {% include "components/navlink.html" with href="/jcg" label="JCG" page_name="jcg" current_page=current_page %}
+                {% include "components/navlink.html" with href="/team" label="Meet the Team" page_name="team" current_page=current_page %}
                 <a href="#" class="bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition">Join Us</a>
             </div>
 

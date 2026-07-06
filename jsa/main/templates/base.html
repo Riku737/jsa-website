@@ -14,11 +14,9 @@
     </head>
     <body class="bg-slate-50 text-slate-900">
 
-        {% include "components/navbar.html" %}
+        {% include "components/navbar.html" with current_page=request.resolver_match.url_name %}
 
-        <main>
-            {% block content %}{% endblock %}
-        </main>
+        {% block content %}{% endblock %}
 
         {% include "components/footer.html" %}
 

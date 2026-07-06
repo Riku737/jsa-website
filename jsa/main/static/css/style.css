@@ -6,3 +6,15 @@ body {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
+
+:root {
+    --jsa_pink: #FF4DAA;
+}
+
+.text-jsapink {
+    color: var(--jsa_pink);
+}
+
+.bg-jsapink {
+    background-color: var(--jsa_pink);
+}
